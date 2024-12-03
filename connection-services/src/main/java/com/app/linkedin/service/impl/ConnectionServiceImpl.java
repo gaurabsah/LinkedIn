@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
+import com.app.linkedin.auth.UserContextHolder;
 import com.app.linkedin.entity.Person;
 import com.app.linkedin.event.AcceptConnectionRequestEvent;
 import com.app.linkedin.event.SendConnectionRequestEvent;

@@ -1,0 +1,10 @@
+package com.app.linkedin.service;
+
+import com.app.linkedin.dto.PostCreateRequestDto;
+import com.app.linkedin.dto.PostDto;
+
+public interface PostService {
+	
+	PostDto createPost(PostCreateRequestDto postDto);
+
+}

@@ -1,0 +1,5 @@
+package com.app.linkedin.service;
+
+public interface PostLikeService {
+
+}
